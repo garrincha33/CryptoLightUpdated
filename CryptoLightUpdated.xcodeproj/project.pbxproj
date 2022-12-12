@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		821AFC182947DDEF002E6078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC172947DDEF002E6078 /* AppDelegate.swift */; };
 		821AFC1A2947DDEF002E6078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC192947DDEF002E6078 /* SceneDelegate.swift */; };
-		821AFC1C2947DDEF002E6078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC1B2947DDEF002E6078 /* ViewController.swift */; };
 		821AFC1F2947DDEF002E6078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821AFC1D2947DDEF002E6078 /* Main.storyboard */; };
 		821AFC212947DDEF002E6078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821AFC202947DDEF002E6078 /* Assets.xcassets */; };
+		821AFC312947E135002E6078 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC302947E135002E6078 /* MainTabBarController.swift */; };
+		821AFC342947E48D002E6078 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC332947E48D002E6078 /* CustomColor.swift */; };
+		821AFC362947E4EE002E6078 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC352947E4EE002E6078 /* Anchor.swift */; };
+		821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC382947E6D8002E6078 /* BaseConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		821AFC142947DDEF002E6078 /* CryptoLightUpdated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoLightUpdated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		821AFC172947DDEF002E6078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		821AFC192947DDEF002E6078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		821AFC1B2947DDEF002E6078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		821AFC1E2947DDEF002E6078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		821AFC202947DDEF002E6078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821AFC252947DDEF002E6078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821AFC302947E135002E6078 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		821AFC332947E48D002E6078 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		821AFC352947E4EE002E6078 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		821AFC382947E6D8002E6078 /* BaseConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,13 @@
 		821AFC0B2947DDEF002E6078 = {
 			isa = PBXGroup;
 			children = (
+				821AFC372947E6C0002E6078 /* Constants */,
+				821AFC322947E47A002E6078 /* Extensions */,
+				821AFC2F2947E007002E6078 /* Networking */,
+				821AFC2E2947DFDD002E6078 /* Fonts */,
+				821AFC2D2947DFD4002E6078 /* Controllers */,
+				821AFC2C2947DFC5002E6078 /* Views */,
+				821AFC2B2947DFAA002E6078 /* Models */,
 				821AFC162947DDEF002E6078 /* CryptoLightUpdated */,
 				821AFC152947DDEF002E6078 /* Products */,
 			);
@@ -56,12 +69,64 @@
 			children = (
 				821AFC172947DDEF002E6078 /* AppDelegate.swift */,
 				821AFC192947DDEF002E6078 /* SceneDelegate.swift */,
-				821AFC1B2947DDEF002E6078 /* ViewController.swift */,
 				821AFC1D2947DDEF002E6078 /* Main.storyboard */,
 				821AFC202947DDEF002E6078 /* Assets.xcassets */,
 				821AFC252947DDEF002E6078 /* Info.plist */,
 			);
 			path = CryptoLightUpdated;
+			sourceTree = "<group>";
+		};
+		821AFC2B2947DFAA002E6078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		821AFC2C2947DFC5002E6078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		821AFC2D2947DFD4002E6078 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				821AFC302947E135002E6078 /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		821AFC2E2947DFDD002E6078 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		821AFC2F2947E007002E6078 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		821AFC322947E47A002E6078 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				821AFC332947E48D002E6078 /* CustomColor.swift */,
+				821AFC352947E4EE002E6078 /* Anchor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		821AFC372947E6C0002E6078 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				821AFC382947E6D8002E6078 /* BaseConstant.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821AFC1C2947DDEF002E6078 /* ViewController.swift in Sources */,
 				821AFC182947DDEF002E6078 /* AppDelegate.swift in Sources */,
+				821AFC312947E135002E6078 /* MainTabBarController.swift in Sources */,
+				821AFC342947E48D002E6078 /* CustomColor.swift in Sources */,
+				821AFC362947E4EE002E6078 /* Anchor.swift in Sources */,
+				821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */,
 				821AFC1A2947DDEF002E6078 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
