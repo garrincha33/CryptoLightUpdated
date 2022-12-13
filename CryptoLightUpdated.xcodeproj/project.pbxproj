@@ -17,6 +17,13 @@
 		821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC382947E6D8002E6078 /* BaseConstant.swift */; };
 		821AFC3B29484AD6002E6078 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */; };
 		821AFC3D29484B15002E6078 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC3C29484B15002E6078 /* BaseCell.swift */; };
+		821AFC3F29487C04002E6078 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC3E29487C04002E6078 /* NewsController.swift */; };
+		821AFC4129487C0F002E6078 /* CoinsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC4029487C0F002E6078 /* CoinsController.swift */; };
+		821AFC4329487C37002E6078 /* NewsArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC4229487C37002E6078 /* NewsArticles.swift */; };
+		821AFC4529487C6F002E6078 /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC4429487C6F002E6078 /* Coins.swift */; };
+		821AFC4729487D66002E6078 /* CustomNewsControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC4629487D66002E6078 /* CustomNewsControllerCell.swift */; };
+		821AFC492948833B002E6078 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC482948833B002E6078 /* APIService.swift */; };
+		821AFC4C29488388002E6078 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC4B29488388002E6078 /* CustomErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,13 @@
 		821AFC382947E6D8002E6078 /* BaseConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConstant.swift; sourceTree = "<group>"; };
 		821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
 		821AFC3C29484B15002E6078 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		821AFC3E29487C04002E6078 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		821AFC4029487C0F002E6078 /* CoinsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsController.swift; sourceTree = "<group>"; };
+		821AFC4229487C37002E6078 /* NewsArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticles.swift; sourceTree = "<group>"; };
+		821AFC4429487C6F002E6078 /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
+		821AFC4629487D66002E6078 /* CustomNewsControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNewsControllerCell.swift; sourceTree = "<group>"; };
+		821AFC482948833B002E6078 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		821AFC4B29488388002E6078 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,8 @@
 		821AFC2B2947DFAA002E6078 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				821AFC4229487C37002E6078 /* NewsArticles.swift */,
+				821AFC4429487C6F002E6078 /* Coins.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				821AFC3C29484B15002E6078 /* BaseCell.swift */,
+				821AFC4629487D66002E6078 /* CustomNewsControllerCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +117,8 @@
 			children = (
 				821AFC302947E135002E6078 /* MainTabBarController.swift */,
 				821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */,
+				821AFC3E29487C04002E6078 /* NewsController.swift */,
+				821AFC4029487C0F002E6078 /* CoinsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -114,6 +133,7 @@
 		821AFC2F2947E007002E6078 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				821AFC482948833B002E6078 /* APIService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -130,9 +150,18 @@
 		821AFC372947E6C0002E6078 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				821AFC4A29488377002E6078 /* ErrorHandling */,
 				821AFC382947E6D8002E6078 /* BaseConstant.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		821AFC4A29488377002E6078 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				821AFC4B29488388002E6078 /* CustomErrors.swift */,
+			);
+			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +235,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				821AFC182947DDEF002E6078 /* AppDelegate.swift in Sources */,
+				821AFC4C29488388002E6078 /* CustomErrors.swift in Sources */,
 				821AFC312947E135002E6078 /* MainTabBarController.swift in Sources */,
+				821AFC4529487C6F002E6078 /* Coins.swift in Sources */,
 				821AFC342947E48D002E6078 /* CustomColor.swift in Sources */,
 				821AFC362947E4EE002E6078 /* Anchor.swift in Sources */,
+				821AFC4129487C0F002E6078 /* CoinsController.swift in Sources */,
 				821AFC3D29484B15002E6078 /* BaseCell.swift in Sources */,
 				821AFC3B29484AD6002E6078 /* BaseCollectionViewController.swift in Sources */,
+				821AFC492948833B002E6078 /* APIService.swift in Sources */,
+				821AFC4729487D66002E6078 /* CustomNewsControllerCell.swift in Sources */,
+				821AFC3F29487C04002E6078 /* NewsController.swift in Sources */,
+				821AFC4329487C37002E6078 /* NewsArticles.swift in Sources */,
 				821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */,
 				821AFC1A2947DDEF002E6078 /* SceneDelegate.swift in Sources */,
 			);
