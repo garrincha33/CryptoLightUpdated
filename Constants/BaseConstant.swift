@@ -17,9 +17,7 @@ let FULL_UK = "https://newsapi.org/v2/top-headlines?country=uk&apiKey=63192e5caf
 let FULL_BIT = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=63192e5caf474dd793c882dc6b860f49"
 let FULL_WALL = "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=63192e5caf474dd793c882dc6b860f49"
 let FULL_APPLE = "https://newsapi.org/v2/everything?q=apple&from=2018-10-19&to=2018-10-19&sortBy=popularity&apiKey=63192e5caf474dd793c882dc6b860f49"
-
 let FULL_MASH = "https://newsapi.org/v2/top-headlines?sources=mashable&apiKey=63192e5caf474dd793c882dc6b860f49"
-
 //COINS CONSTANTS --- using api.coinmarketcap
 let FULL_COINS = "https://api.coinmarketcap.com/v1/ticker/"
 //update api using new coinlayer
