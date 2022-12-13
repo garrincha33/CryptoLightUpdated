@@ -15,6 +15,8 @@
 		821AFC342947E48D002E6078 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC332947E48D002E6078 /* CustomColor.swift */; };
 		821AFC362947E4EE002E6078 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC352947E4EE002E6078 /* Anchor.swift */; };
 		821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC382947E6D8002E6078 /* BaseConstant.swift */; };
+		821AFC3B29484AD6002E6078 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */; };
+		821AFC3D29484B15002E6078 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AFC3C29484B15002E6078 /* BaseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		821AFC332947E48D002E6078 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		821AFC352947E4EE002E6078 /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
 		821AFC382947E6D8002E6078 /* BaseConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConstant.swift; sourceTree = "<group>"; };
+		821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		821AFC3C29484B15002E6078 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		821AFC2C2947DFC5002E6078 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				821AFC3C29484B15002E6078 /* BaseCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				821AFC302947E135002E6078 /* MainTabBarController.swift */,
+				821AFC3A29484AD6002E6078 /* BaseCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				821AFC312947E135002E6078 /* MainTabBarController.swift in Sources */,
 				821AFC342947E48D002E6078 /* CustomColor.swift in Sources */,
 				821AFC362947E4EE002E6078 /* Anchor.swift in Sources */,
+				821AFC3D29484B15002E6078 /* BaseCell.swift in Sources */,
+				821AFC3B29484AD6002E6078 /* BaseCollectionViewController.swift in Sources */,
 				821AFC392947E6D8002E6078 /* BaseConstant.swift in Sources */,
 				821AFC1A2947DDEF002E6078 /* SceneDelegate.swift in Sources */,
 			);
