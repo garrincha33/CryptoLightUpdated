@@ -62,6 +62,7 @@
 		821AFC0B2947DDEF002E6078 = {
 			isa = PBXGroup;
 			children = (
+				821AFC4A29488377002E6078 /* ErrorHandling */,
 				821AFC372947E6C0002E6078 /* Constants */,
 				821AFC322947E47A002E6078 /* Extensions */,
 				821AFC2F2947E007002E6078 /* Networking */,
@@ -150,7 +151,6 @@
 		821AFC372947E6C0002E6078 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				821AFC4A29488377002E6078 /* ErrorHandling */,
 				821AFC382947E6D8002E6078 /* BaseConstant.swift */,
 			);
 			path = Constants;
