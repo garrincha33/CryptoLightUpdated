@@ -23,7 +23,7 @@ class MainTabBarController: UITabBarController {
     //wrap in a private setup func to call in ViewDidLoad
     private func setupTabBar() {
         viewControllers = [
-            generateNavControllers(with: UIViewController(), title: "News", image: UIImage(named: "cryptoNews")!),
+            generateNavControllers(with: NewsController(), title: "News", image: UIImage(named: "cryptoNews")!),
             generateNavControllers(with: UIViewController(), title: "Prices", image: UIImage(named: "prices_new")!)
         ]
         //MARK:- customise's the position of the icons on the tabbar

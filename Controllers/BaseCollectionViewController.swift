@@ -44,4 +44,13 @@ class BaseCollectionViewController<T: BaseCell<U>, U>: UICollectionViewControlle
             cell.alpha = 1
             cell.layer.transform = CATransform3DScale(CATransform3DIdentity, 1, 1, 1)})
     }
+    
+    
+    init() {
+        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
