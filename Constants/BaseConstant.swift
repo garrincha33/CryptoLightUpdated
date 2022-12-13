@@ -10,7 +10,7 @@
 import Foundation
 
 let FULL_HEADLINES = "https://newsapi.org/v2/top-headlines?country=us&apiKey=63192e5caf474dd793c882dc6b860f491"
-let FULL_URLS = "https://newsapi.org/v2/everything?sources=crypto-coins-news&apiKey=63192e5caf474dd793c882dc6b860f49b82bd93e26341"
+let FULL_URLS = "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=63192e5caf474dd793c882dc6b860f49"
 let FULL_BBC = "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=63192e5caf474dd793c882dc6b860f493e26341"
 let FULL_US = "https://newsapi.org/v2/top-headlines?country=us&apiKey=63192e5caf474dd793c882dc6b860f49"
 let FULL_UK = "https://newsapi.org/v2/top-headlines?country=uk&apiKey=63192e5caf474dd793c882dc6b860f49"
